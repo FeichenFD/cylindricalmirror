@@ -4,18 +4,25 @@
 
 Turn any normal picture into a distorted print that **restores itself when reflected in a cylindrical mirror** — in practice, a 330 ml cola can standing on an A4 sheet.
 
-<p align="center">
-  <img src="images/test_1024.png" width="280" alt="input"/>
-  <img src="images/test_1024_anamorph.png" width="280" alt="A4 distorted print"/>
-  <img src="images/test_1024_anamorph_preview.png" width="280" alt="what you see in the can"/>
-</p>
-
-*Left: input image (what you want to see in the can). Middle: the distorted A4 print this script produces. Right: how the middle print looks when reflected in the can — back to normal.*
-
 ---
 
 <a id="english"></a>
 ## English
+
+<table>
+  <tr>
+    <td width="360"><img src="images/test_1024.png" width="350" alt="input"/></td>
+    <td><b>Input</b> — the normal picture you want to see in the can.</td>
+  </tr>
+  <tr>
+    <td width="360"><img src="images/test_1024_anamorph.png" width="350" alt="A4 distorted print"/></td>
+    <td><b>A4 print</b> — the distorted image this script generates. Print it at 100% scale.</td>
+  </tr>
+  <tr>
+    <td width="360"><img src="images/test_1024_anamorph_preview.png" width="350" alt="what you see in the can"/></td>
+    <td><b>In the can</b> — how the A4 print looks reflected in the cola can: back to normal.</td>
+  </tr>
+</table>
 
 ### 1. How it works
 
@@ -120,6 +127,21 @@ Each run produces **two files**:
 
 <a id="中文"></a>
 ## 中文
+
+<table>
+  <tr>
+    <td width="360"><img src="images/test_1024.png" width="350" alt="输入图"/></td>
+    <td><b>输入图</b>——你想在罐中看到的正常图片。</td>
+  </tr>
+  <tr>
+    <td width="360"><img src="images/test_1024_anamorph.png" width="350" alt="A4 变形图"/></td>
+    <td><b>A4 打印图</b>——脚本生成的变形图，100% 缩放打印到 A4 纸。</td>
+  </tr>
+  <tr>
+    <td width="360"><img src="images/test_1024_anamorph_preview.png" width="350" alt="罐中预览"/></td>
+    <td><b>罐中所见</b>——A4 打印图经可乐罐反射后的画面：恢复正常。</td>
+  </tr>
+</table>
 
 ### 1. 原理
 
